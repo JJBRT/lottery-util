@@ -1,4 +1,4 @@
-package org.rg.game.lottery.engine;
+package org.rg.game.core;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -21,9 +21,9 @@ import java.util.TreeSet;
 
 import org.burningwave.Synchronizer;
 import org.burningwave.Throwables;
-import org.rg.game.core.CollectionUtils;
-import org.rg.game.core.LogUtils;
-import org.rg.game.core.MathUtils;
+import org.rg.game.lottery.engine.ComboHandler;
+import org.rg.game.lottery.engine.Premium;
+import org.rg.game.lottery.engine.Storage;
 
 public class PersistentStorage implements Storage {
 	private static String workingPath;
